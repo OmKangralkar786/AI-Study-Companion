@@ -13,7 +13,7 @@ SECRET_KEY = "django-insecure-7vdombsdew%=h2&*y=6h=zf!!c!02i96qtvz73!8e!eh(#pxas
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Gemini API Key
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
